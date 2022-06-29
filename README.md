@@ -2,45 +2,48 @@
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/Gaetandrt)  [![forthebadge](https://forthebadge.com/images/badges/made-with-c.svg)](https://fr.wikipedia.org/wiki/C_(langage))  [![linkedin-](https://user-images.githubusercontent.com/91087072/175767199-5ecadc72-20a2-42dc-a24f-3a601bba5ddb.svg)](https://www.linkedin.com/in/gaetan-darrort/)
 
-My_RPG alias 
+My_RPG alias Titan Quest
 
 ## Qu'est qu'un RPG ?
 
-Sokoban est un jeu vidéo de réflexion inventé au Japon en 1982 par [Hiroyuki Imabayashi](https://www.mobygames.com/developer/sheet/view/developerId,257256/).
+Un jeu vidéo de rôle ou simplement jeu de rôle, couramment abrégé en RPG (sigle issu de l'anglais role playing game), est un genre de jeu vidéo s'inspirant des codes et du principe des jeux de rôle sur table.
 
-Le joueur doit ranger des caisses sur des cases cibles. Il peut se déplacer dans les quatre directions, et pousser (mais pas tirer) une seule caisse à la fois.
-Une fois toutes les caisses rangées (c'est parfois un vrai casse-tête), le niveau est réussi et le joueur passe au niveau suivant, plus difficile en général.
-L'idéal est de réussir avec le moins de coups possibles (déplacements et poussées).
+Le joueur y incarne un ou plusieurs personnages qu'il fait évoluer au fil d'une quête
 
 ### Compétences travaillées
 
-- Découverte de la libC Ncurses
-- Une bonne gestion des hitbox et des déplacements
-- Bien structurer son code, au risque de s'y perdre...
+- Travail en équipe (équipe de 5 personnes).
+- Mise en commun du travail.
+- Renforcement de la maîtrise de la CSFML.
 
 ### Installation
 
-Pour lancer le jeu, il vous faudra
+Pour lancer le jeu, il vous faudra tout d'abord le compiler grace à cette commande :
 
-Une map qui devra ressembler a quelque chose de semblable :
+```bash
+make
+```
 
-[![sokoban_command](https://user-images.githubusercontent.com/91087072/175766427-aa2ab1ad-28ad-422f-af8a-d658205d608a.PNG)](https://user-images.githubusercontent.com/91087072/175766427-aa2ab1ad-28ad-422f-af8a-d658205d608a.PNG)
+Il vous suffira ensuite de lancer le binaire généré grace à la commande :
 
-Une fois que vous avez la map, il vous suffit de compiler le programme avec la commande "make".
-
-Lancer ensuite le binaire suivi du chemin d'accès de votre map comme ceci :
-
-[![sokoban_command](https://user-images.githubusercontent.com/91087072/175766428-a4d46fbe-8f9a-41fa-be6d-db907cdd8c66.png)](https://user-images.githubusercontent.com/91087072/175766428-a4d46fbe-8f9a-41fa-be6d-db907cdd8c66.png)
+```bash
+./my_rpg
+```
 
 Une fois le programme lancé, vous pouvez commencer à jouer.
 
-[![sokoban_map](https://user-images.githubusercontent.com/91087072/175766426-f4a858c0-89b2-42fa-a6d1-75420c887784.png)](https://user-images.githubusercontent.com/91087072/175766426-f4a858c0-89b2-42fa-a6d1-75420c887784.png)
+
+[![rpg_menu](https://user-images.githubusercontent.com/91087072/176380248-157adb09-da55-4693-97b5-b9d9d2912462.png)](https://user-images.githubusercontent.com/91087072/176380248-157adb09-da55-4693-97b5-b9d9d2912462.png)
+
+
+[![rpg_game](https://user-images.githubusercontent.com/91087072/176380244-892c32ee-af23-42b9-a17e-d19feac1c5d8.png)](https://user-images.githubusercontent.com/91087072/176380244-892c32ee-af23-42b9-a17e-d19feac1c5d8.png)
+
 
 ## Touches
 
 Pour vous déplacez, utiliser les croix directionnels.
 
-Pour quitter, utiliser echap.
+Pour ouvrir le menu, utilisez echap.
 
 Rien de plus simple !
 
@@ -48,4 +51,4 @@ Rien de plus simple !
 
 * [Visual Studio Code](https://code.visualstudio.com/) - Environnement de développement
 * [C](https://fr.wikipedia.org/wiki/C_(langage)) - Langage de programmation
-* [Ncurses](https://invisible-island.net/ncurses/man/ncurses.3x.html) - Librairie pour le language C
+* [CSFML](https://www.sfml-dev.org/download/csfml/index-fr.php) - Librairie pour le language C
